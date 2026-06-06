@@ -1,0 +1,47 @@
+# Vision Platform Enterprise - Core Dependencies
+# Python 3.7+
+
+# GUI Framework
+PyQt5==5.15.9
+PyQt5-sip==12.13.0
+
+# Image Processing & Computer Vision
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.0
+
+# OCR
+pytesseract==0.3.10
+
+# Data Processing
+pandas==2.0.3
+scipy==1.11.2
+scikit-image==0.21.0
+
+# Configuration Management
+PyYAML==6.0.1
+
+# Database
+PySQLite==2.6.3
+
+# PDF Generation
+ReportLab==4.0.7
+
+# Plotting & Visualization
+matplotlib==3.7.2
+
+# Logging
+Python-logging-loki==0.3.2
+
+# Network & Communication
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.0
+
+# Development (optional)
+# pytest==7.4.0
+# pytest-cov==4.1.0
+# black==23.7.0
+# pylint==2.17.5
