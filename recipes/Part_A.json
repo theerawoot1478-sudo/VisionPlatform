@@ -1,0 +1,52 @@
+{
+    "name": "Part_A",
+    "camera": {
+        "exposure": 300,
+        "gain": 1.0
+    },
+    "rois": [
+        {
+            "x": 348,
+            "y": 215,
+            "w": 341,
+            "h": 587
+        },
+        {
+            "x": 785,
+            "y": 359,
+            "w": 258,
+            "h": 165
+        },
+        {
+            "x": 901,
+            "y": 597,
+            "w": 203,
+            "h": 175
+        },
+        {
+            "x": 42,
+            "y": 713,
+            "w": 193,
+            "h": 107
+        }
+    ],
+    "tools": {
+        "0": [
+            "pattern",
+            "ocr"
+        ],
+        "1": [
+            "presence",
+            "brightness"
+        ],
+        "2": [
+            "pattern"
+        ]
+    },
+    "thresholds": {
+        "pattern": 80,
+        "presence": 20,
+        "brightness_min": 50,
+        "brightness_max": 200
+    }
+}
